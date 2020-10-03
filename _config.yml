@@ -1,0 +1,116 @@
+# Site settings
+title: ouhuber
+SEOTitle: my a bit notes（is't a little）
+header-img: img/1594979707464.jpg
+email: 2063911070@qq.com -or- w2063ii9@163.com
+description: "follow my heart "
+keyword: "I'm a monkey beacuse of we are.."
+url: "https://ouhuber.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/ouhuber/ouhuber.github.io.git" # you code repository
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "额，我的微信/QQ头像，猩猩比利"
+sidebar-avatar: /img/1594979707110.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+#SNS settings
+RSS: false
+# weibo_username:     qiubaiying
+#zhihu_username:      ou - c
+# github_username:    qiubaiying
+# facebook_username:  baiying.qiu.7
+# jianshu_username:   e71990ada2fd
+# twitter_username:   qiubaiying
+
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# 评论系统
+# Disqus（https://disqus.com/）
+# disqus_username: qiubaiying
+
+# Gitalk
+gitalk:
+  enable: flash  #是否开启Gitalk评论
+  clientID:                           #生成的clientID
+  clientSecret:    #生成的clientSecret
+  repo: ouhuber.github.io    #仓库名称
+  owner: ouhuber  #github用户名
+  admin: ouhuber
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+# ba_track_id: b50bf2b12b5338a1845e33832976fd68
+
+# Google Analytics
+# ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+# ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+
+
+
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "英语（雅思，考研，商务，提取码：9igx）",
+        href: "https://pan.baidu.com/s/1DizWTbYCfl1-n6Vhf-3Cow"
+    },{
+        title: "电脑优化软件(提取码：92sz)",
+        href: "https://pan.baidu.com/s/13exyy-uLfJzjxmxkHIk29g"
+    },{
+        title: "C语言一点材料（提取码：eq7x）",
+        href: "https://pan.baidu.com/s/1PYEZxguGyPvk9cVHg1YASA"
+    },{
+        title: "卸载和清理电脑的（提取码：k32d）",
+        href: "https://pan.baidu.com/s/1NkgcU_qvY2j80-6ysZs4Ag" 
+    }
+    ]
+
+theme: jekyll-theme-minimal
